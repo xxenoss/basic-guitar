@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+.main_section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 50px;
+    padding-bottom: 50px;
+}
+.kit-button{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: none;
+    font-size: 50px;
+    background: linear-gradient(to bottom, rgb(10, 8, 42) 0%, rgb(1, 2, 2) 100%);
+  box-shadow: 0 4px 4px rgba(74, 73, 78, 0.3);
+  transform: translatey(-6px);
+}
+.kit-button:active {
+    transform: translateY(-2px);
+  }
+  @media (max-width: 768px){
+    .kit-button{
+        width: 100px;
+        height: 100px;
+  }
+  }
